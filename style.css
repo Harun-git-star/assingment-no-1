@@ -142,3 +142,36 @@ section.action {
     font-size: 14px;
 }
 .review-section-name h4 {color: #6e727f;}
+/* newsletter page */
+section.newsletter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+.newsletter-content{
+    max-width: 530px;
+}
+.newsletter-content h2 {
+    font-size: 80px;
+}
+.newsletterForm{
+    max-width: 540px;
+}
+
+form input, textarea {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: 1px solid #b8aeae;
+    border-radius: 10px;
+    margin: 9px 0 20px 0;
+    outline: none;
+}
+
+form button {width: 530px;}
+
+form label {
+    font-size: 15px;
+    font-weight: 600;
+}
