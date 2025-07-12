@@ -13,6 +13,9 @@ body{
     "wdth" 100;
     background-color: #f5f8ff;
 } 
+section{
+    padding: 100px 0;
+}
 .my-with{
     max-width: 1140px;
     margin: 0 auto;
@@ -76,4 +79,31 @@ section.action {
 
 .action-imgage img {
     border-radius: 45px;
+}/* productive-user page*/
+.productive-user{
+    background-color: #dce5ff;
+    border-radius: 20px;
+    padding: 50px 0;
+}
+.productive-user-title {
+    color: #252432;
+    text-align: center;
+    margin-bottom: 26px;
+    font-size: 31px;
+}
+.productive-user-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.productive-userBox{
+    max-width: 170px;
+}
+.productive-userBox h1{
+    color: #4e47ff;
+    font-size: 65px;
+}
+.productive-userBox span{
+    color: #6e727f;
+    text-align: center;
 }
