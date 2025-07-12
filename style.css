@@ -62,3 +62,18 @@ nav {
 .header-content button{
 margin-top: 28px;
 }
+/* Main page */
+
+section.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+.action-content p {
+    padding: 20px 0;
+}
+
+.action-imgage img {
+    border-radius: 45px;
+}
