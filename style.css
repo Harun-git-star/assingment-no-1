@@ -175,3 +175,22 @@ form label {
     font-size: 15px;
     font-weight: 600;
 }
+.footer {
+    text-align: center;
+    padding: 70px;
+}
+
+.footer h1 {
+    font-size: 100px;
+}
+
+.footer p {
+    margin: 20px;
+}
+
+.footer-menu a {
+    margin-right: 17px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
